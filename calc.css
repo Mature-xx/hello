@@ -1,0 +1,27 @@
+*{padding: 0px;margin: 0px;font-family:"黑体";}
+body{background-color: black;}
+#calculater{width:500px;
+	        margin: 100px auto;
+            border-spacing: 0px;
+            border: solid 6px #ffeeff;
+
+}
+#display{width: 100%;
+         height: 50px;
+         font-weight: bold;
+         border-bottom: solid 4px gray;
+         padding-left: 2px;
+         color: black;
+         background-color: white;
+}
+
+td{
+	width: 50px;
+	cursor: pointer;
+	height: 50px;
+	border: solid 1px gray;
+	background-color: #98a;
+	text-align: center;
+	border-radius: 5px;
+}
+td:hover{background-color: orange;}
