@@ -60,4 +60,32 @@
 		  alien-items:center;
 		  justify-content:center;
 		}
+##解决inline的空隙
+display：inline-block的元素之间会有一个字符的间隙，这个间隙导致了最后一个会掉下来。
+
+解决方法：
+1、给父元素设置font-size：0px；
+
+2、取消掉换行符，如这样：`<span>aaaa</span><span>aaaa</span><span>aaaa</span>连续`。
+
+或者
+			
+		<div class="space">
+    <a href="##">惆怅</a><!--
+    --><a href="##">淡定</a><!--
+    --><a href="##">热血</a>
+		</div>
+
+		<div class="space">
+    <a href="##">惆怅</a
+    ><a href="##">淡定</a
+    ><a href="##">热血</a>
+		</div>
+
+3、使用margin负值。
+
+4、使用浮动。
+
+5、另外还有使用letter-spacing、word-spacing等方法。
+		
       
