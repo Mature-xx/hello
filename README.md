@@ -60,6 +60,9 @@
 		  alien-items:center;
 		  justify-content:center;
 		}
+
+
+
 ##解决inline的空隙
 display：inline-block的元素之间会有一个字符的间隙，这个间隙导致了最后一个会掉下来。
 
